@@ -10,6 +10,6 @@ address: '105 W 39th St, Baltimore, MD 21210'
 phone_number: (410) 275-5329
 email: broadview@bonaventure.com
 website: 'http://www.broadviewapartments.com/'
-cover_photo: 'http://medialibrarycdn.entrata.com/websites_media/broadviewapartments.com/cached_thumbs/2048x1366/562a4292e7d5b752.jpg'
+cover_photo: ''
 ---
 
