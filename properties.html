@@ -1,12 +1,11 @@
 ---
 layout: default
 ---
-<article>
-    <div>
-        <h1>Andrew</h1>
-        {% for property in site.properties %}
-            <h2>{{ property.community }}</h2> 
-        {% endfor %}
-    </div>
-</article>
+{% for property in site.properties %}
+    <article>
+        <div>
+             <h2>{{ property.community }}</h2>   
+        </div>
+    </article>
+{% endfor %}
 
