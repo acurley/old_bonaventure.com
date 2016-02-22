@@ -1,2 +1,6 @@
 ---
+title:
+thumbnail:
+description:
+neighborhood:
 ---
