@@ -1,0 +1,140 @@
+.row {
+  margin-right: 0px;
+  margin-left: 0px
+}
+
+$primary-color: #333;
+
+$bonaventure-teal: #6bc9ee;
+$bonaventure-medium-blue: #16668c;
+$bonaventure-dark-blue: #0d3d58;
+$bonaventure-light-gray: #d2d2cc;
+
+.bonaventure-logo {
+  height: 45px;
+}
+
+.btn-main-ghost {
+  color: white;
+  background-color: $bonaventure-teal;
+  border-color: $bonaventure-teal;
+
+  &:hover {
+    background-color: $bonaventure-medium-blue;
+    border-color: $bonaventure-medium-blue;
+  }
+
+  &:focus {
+    background-color: $bonaventure-medium-blue;
+    border-color: $bonaventure-medium-blue;
+  }
+}
+
+/* Home page */
+.content-overlay {
+  min-height: 700px;
+}
+
+#bonaventure-find-your-wingman {
+  margin-top: 75px;
+  margin-bottom: 10px;
+  width:100%;
+  padding:0.3em;
+  background-color: transparentize($bonaventure-dark-blue, 0.4);
+  color:#fff;
+  font-size:13px;
+  font-size:1.2rem;
+  float: left;
+
+  h2 {
+    margin-bottom: 20px;
+    text-transform:  none;
+    font-size: 35px;
+  }
+
+  .btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .sky-form fieldset {
+    padding: 0;
+    border: none;
+    background: none;
+    margin-top: 18px;
+  }
+}
+
+.sky-form .input input,
+.sky-form .select select,
+.sky-form .textarea textarea,
+.sky-form .radio i,
+.sky-form .checkbox i,
+.sky-form .toggle i,
+.sky-form .icon-append,
+.sky-form .icon-prepend {
+  border-color: $bonaventure-teal;
+  -ms-transition: border-color 0.3s;
+  -moz-transition: border-color 0.3s;
+  -webkit-transition: border-color 0.3s;
+}
+
+.sky-form .input:hover input,
+.sky-form .select:hover select,
+.sky-form .textarea:hover textarea,
+.sky-form .radio:hover i,
+.sky-form .checkbox:hover i,
+.sky-form .toggle:hover i,
+.sky-form .ui-slider-handle:hover {
+  border-color: $bonaventure-teal;
+}
+
+@media (max-width: 640px) {
+  #video-wrap {
+    background-image: url('../images/iphone4.jpg');
+
+    video {
+      display: none;
+    }
+
+    .img-responsive {
+      padding-top: 10%;
+    }
+  }
+}
+
+@media (min-width: 640px) {
+  #video-wrap {
+    video {
+      display: inherit;
+    }
+
+    .content-overlay {
+      padding-top: 8%;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #video-wrap h3 {
+    font-size: 18px;
+  }
+
+  .text-right {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1100px) {
+  .content-overlay h3 span.date  {
+    border: none;
+  }
+}
+
+#introduction {
+  /*background-image: url('../images/introduction_bg.jpg');*/
+}
+
+#location {
+  address {background-color:rgba(20,20,20,0.9);border-color: #000;}
+}
