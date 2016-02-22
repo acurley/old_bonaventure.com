@@ -27,7 +27,7 @@ collections:
 defaults:
   - 
     scope: 
-      path: "properties"
+      path: ""
       type: "properties"
     values:
-      layout: "properties"
+      layout: "default"
