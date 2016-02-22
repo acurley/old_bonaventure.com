@@ -1,6 +1,14 @@
 ---
-title:
-thumbnail:
-description:
+community:
+market:
 neighborhood:
+nickname:
+short_description:
+description:
+bedroom_types:
+address:
+phone_number:
+email:
+website:
+cover_photo:
 ---
