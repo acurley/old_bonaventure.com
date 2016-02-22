@@ -23,3 +23,11 @@ markdown: kramdown
 collections:
   properties:
     output: true
+
+defaults:
+  - 
+    scope: 
+      path: "properties"
+      type: "properties"
+    values:
+      layout: "properties"
