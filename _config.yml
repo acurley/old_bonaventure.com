@@ -21,4 +21,5 @@ github_username:  jekyll
 markdown: kramdown
 
 collections:
-  - properties
+  - properties:
+      output: true
