@@ -14,7 +14,7 @@ $bonaventure-light-gray: #d2d2cc;
   height: 45px;
 }
 
-.btn-main-ghost {
+.btn-bonaventure {
   color: white;
   background-color: $bonaventure-teal;
   border-color: $bonaventure-teal;
@@ -89,6 +89,30 @@ $bonaventure-light-gray: #d2d2cc;
   border-color: $bonaventure-teal;
 }
 
+#core-values {
+  background-color: $bonaventure-dark-blue;
+  color: white;
+  font-size: 18px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  list-style-type: none;
+
+  .bonaventure-logo {
+    padding-bottom: 10px;
+  }
+
+  a:link,
+  a:visited,
+  a:hover,
+  a:focus,
+  a:active {
+    color: $bonaventure-teal;
+  }
+}
+
 @media (max-width: 640px) {
   #video-wrap {
     background-image: url('../images/iphone4.jpg');
@@ -129,12 +153,4 @@ $bonaventure-light-gray: #d2d2cc;
   .content-overlay h3 span.date  {
     border: none;
   }
-}
-
-#introduction {
-  /*background-image: url('../images/introduction_bg.jpg');*/
-}
-
-#location {
-  address {background-color:rgba(20,20,20,0.9);border-color: #000;}
 }
