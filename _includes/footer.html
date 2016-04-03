@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row">
       <div class='col-lg-4'>
-        <img src='{{ "/images/bonaventure-header-white-text-620x159.png" | prepend: site.github.url }}' alt="Bonaventure Realty Group" class="img-responsive bonaventure-logo"/>
+        <img src="{{ "/images/bonaventure-header-white-text-620x159.png" | prepend: site.github.url }}" alt="Bonaventure Realty Group" class="img-responsive bonaventure-logo"/>
 
         <p>Stay up to date with #BonaFam</p>
         <form class="form-inline">
@@ -15,9 +15,10 @@
       </div>
 
       <div class='col-lg-4'>
-        <li><a href="{{ "/communiites" | prepend: site.github.url }}" class="white">Our Communitiies</a></li>
         <li><a href="{{ "/core-values" | prepend: site.github.url }}" class="white">Core Values</a></li>
         <li><a href="{{ "/resident-services" | prepend: site.github.url }}" class="white">#BonaCares Resident Services</a></li>
+        <li><a href="{{ "/communiites" | prepend: site.github.url }}" class="white">Our Communities</a></li>
+        <li><a href="{{ "/solutions" | prepend: site.github.url }}" class="white">Solutions</a></li>
         <li><a href="" class="white">Employee Access</a></li>
       </div>
 
@@ -31,4 +32,12 @@
     </div>
   </div>
 </footer>
-<!-- /.Footer --> 
+<!-- /.Footer -->
+
+<section id="copyright">
+  <div class="container">
+    <div class="row">
+      <p class="text-center">2016 © Bonaventure Realty Group | <a href="{{ "/equal-housing-opportunity" | prepend: site.github.url }}">Equal Housing Opportunity</a></p>
+    </div>
+  </div>
+</section>
