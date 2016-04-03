@@ -10,6 +10,14 @@ $bonaventure-medium-blue: #16668c;
 $bonaventure-dark-blue: #0d3d58;
 $bonaventure-light-gray: #d2d2cc;
 
+a:link,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+  color: $bonaventure-teal;
+}
+
 .bonaventure-logo {
   height: 45px;
 }
@@ -65,6 +73,12 @@ $bonaventure-light-gray: #d2d2cc;
   }
 }
 
+@media (max-width: 768px) {
+  #bonaventure-find-your-wingman {
+    margin-top: 20px;
+  }
+}
+
 .sky-form .input input,
 .sky-form .select select,
 .sky-form .textarea textarea,
@@ -103,14 +117,23 @@ footer {
   .bonaventure-logo {
     padding-bottom: 10px;
   }
+}
+
+section#copyright {
+  padding: 20px 0;
+
+  p {
+    margin: 0;
+  }
 
   a:link,
   a:visited,
   a:hover,
   a:focus,
   a:active {
-    color: $bonaventure-teal;
+    color: $bonaventure-medium-blue;
   }
+
 }
 
 @media (max-width: 640px) {
@@ -152,5 +175,153 @@ footer {
 @media (max-width: 1100px) {
   .content-overlay h3 span.date  {
     border: none;
+  }
+}
+
+/*
+/core-values
+*/
+
+/* Flexslider */
+.home-slider .slides li.flex-active-slide,
+.home-slider .slides li.clone {
+    opacity:1;
+}
+
+#wingman-slider {
+    background:transparent;
+    color: $bonaventure-medium-blue;
+}
+
+#wingman-slider {
+    padding:0;
+    margin-bottom:0;
+    /*min-height:500px;*/
+}
+
+#wingman-slider .left-col,
+#wingman-slider .right-col{
+    float:left;
+}
+
+#wingman-slider .message-box{
+    width:90%;
+    margin:50px auto 0;
+    background:#fff;
+    background:rgba(255,255,255,0.7);
+    padding:10px 0;
+}
+
+#wingman-slider .left-col{
+  width:35%;
+  text-align:right;
+}
+
+#wingman-slider .right-col{
+    width:65%;
+    text-align:center;
+    overflow:hidden;
+    border:none;
+    box-shadow:none;
+    background:transparent;
+    margin:0;
+    padding:0;
+}
+
+#wingman-slider .left-col p{
+    display:inline-block;
+    margin:0;
+    padding:18px 5px 12px 20px;
+    font-size:34px;
+    font-weight:300;
+    line-height:48px;
+}
+
+#wingman-slider .left-col p span{
+    font-size:42px;
+    font-weight:400;
+    text-transform:uppercase;
+}
+
+#wingman-slider .right-col p {
+    display:inline-block;
+    margin:0;
+    padding:15px 5px 10px 5px;
+    font-size:40px;
+    /*line-height:110px;*/
+    font-weight:900;
+    text-transform:uppercase;
+}
+
+#wingman-slider .home-slider .slides li {
+    opacity:0;
+    -webkit-ransition:opacity 0.4s ease-out;
+    transition:opacity 0.4s ease-out;
+}
+
+.no-csstransitions #wingman-slider .home-slider .slides li {
+    opacity:1;
+}
+
+#wingman-slider .home-slider .slides li.flex-active-slide,
+#wingman-slider .home-slider .slides li.clone {
+    opacity:1;
+}
+
+@media (max-width: 1199px) {
+  #wingman-slider .left-col p{
+    font-size:20px;
+    line-height:32px;
+  }
+
+  #wingman-slider .left-col p span{
+    font-size:26px;
+  }
+
+  #wingman-slider .right-col p{
+    font-size:40px;
+    line-height:82px;
+  }
+}
+
+@media (max-width: 991px) {
+  #wingman-slider .message-box{
+    padding:10px 0;
+  }
+
+  #wingman-slider .left-col {
+    width:100%;
+  }
+
+  #wingman-slider .left-col p{
+    padding:10px;
+    text-align:center;
+  }
+
+  #wingman-slider .right-col{
+    width:100%;
+    text-align:center;
+  }
+
+  #wingman-slider .right-col p{
+    padding:10px;
+    font-size:45px;
+  }
+}
+
+@media (max-width: 768px) {
+  #wingman-slider .left-col p{
+    text-align: center;
+    font-size:24px;
+    line-height:28px;
+  }
+
+  #wingman-slider .left-col p span{
+      font-size:26px;
+  }
+
+  #wingman-slider .right-col p{
+    font-size:25px;
+    line-height:40px;
   }
 }
